@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HatterActivity">
+
+    <Button
+        android:id="@+id/buttonColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/buttonPicture"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="onColor"
+        android:text="@string/color_string" />
+
+    <CheckBox
+        android:id="@+id/checkFeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/buttonColor"
+        android:layout_toEndOf="@id/buttonColor"
+        android:onClick="onFeather"
+        android:text="@string/feather_string" />
+
+    <Button
+        android:id="@+id/buttonPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonColor"
+        android:layout_alignParentStart="true"
+        android:onClick="onPicture"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/picture_string" />
+
+    <Spinner
+        android:id="@+id/spinnerHat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/buttonPicture"
+        android:layout_alignBottom="@id/buttonPicture"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/buttonPicture" />
+
+    <view
+        android:id="@+id/hatterView"
+        class="edu.msu.cse476.cloudhatter.HatterView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonPicture"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/black" />
+</RelativeLayout>

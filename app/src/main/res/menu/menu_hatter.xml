@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HatterActivity">
+    <item android:id="@+id/menu_load" android:title="@string/menu_load" android:orderInCategory="79" />
+    <item android:id="@+id/menu_save" android:title="@string/menu_save" android:orderInCategory="80" />
+    <item android:id="@+id/menu_delete" android:title="@string/menu_delete" android:orderInCategory="81" />
+    <item
+        android:id="@+id/menu_reset"
+        android:orderInCategory="100"
+        android:title="@string/menu_reset"/>
+    <item
+        android:id="@+id/menu_about"
+        android:orderInCategory="99"
+        android:title="@string/menu_about" />
+
+</menu>

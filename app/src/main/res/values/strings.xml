@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">CSE 476 Cloud Hatter</string>
+    <string name="action_settings">Settings</string>
+    <string name="color_string">Color</string>
+    <string name="feather_string">Feather</string>
+    <string name="picture_string">Picture</string>
+    <string name="title_activity_color_select">ColorSelectActivity</string>
+    <string name="url_prompt">URL:</string>
+    <string name="gallery">Gallery</string>
+    <string name="url_dlg_heading">Select Picture</string>
+    <string name="menu_reset">Reset</string>
+    <string name="menu_about">About</string>
+    <string name="about_dlg_title">About Cloud Hatter</string>
+    <string name="about_name">RETROFit Cloud Hatter</string>
+    <string name="about_instructions">Open a picture from your gallery or the Internet using the Picture button. Then drag the hat with one or two fingers to put a hat on it.</string>
+    <string name="dummy">Dummy</string>
+    <string name="izzo_url">https://www.cse.msu.edu/~dennisp/izzo.jpg</string>
+    <string name="menu_save">Save to cloud&#8230;</string>
+    <string name="menu_load">Load from cloud&#8230;</string>
+    <string name="menu_delete">Delete from cloud&#8230;</string>
+    <string name="load_fm_title">Load from cloud</string>
+    <string name="catalog_fail">Failed to load catalog of Hattings</string>
+    <string name="loading">Loading</string>
+    <string name="loading_fail">Failed to load Hatting</string>
+    <string name="name_string">Name:</string>
+    <string name="save_fail">Failed to save the hatting to the server</string>
+    <string name="delete_fm_title">Delete from cloud</string>
+    <string name="delete_sure">Are you sure you want to delete</string>
+    <string name="delete_fail">Failed to delete hatting</string>
+    <string name="deleting">Deleting</string>
+
+</resources>

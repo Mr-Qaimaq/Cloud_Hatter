@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HatterActivity">
+
+    <view
+        android:id="@+id/hatterView"
+        class="edu.msu.cse476.cloudhatter.HatterView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/spinnerHat"
+        android:background="@android:color/black" />
+
+    <Button
+        android:id="@+id/buttonPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinnerHat"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:onClick="onPicture"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/picture_string" />
+
+    <Button
+        android:id="@+id/buttonColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonPicture"
+        android:layout_alignLeft="@id/buttonPicture"
+        android:layout_alignParentRight="true"
+        android:onClick="onColor"
+        android:text="@string/color_string" />
+
+    <Spinner
+        android:id="@+id/spinnerHat"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonColor"
+        android:layout_alignParentRight="true" />
+
+    <CheckBox
+        android:id="@+id/checkFeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerHat"
+        android:layout_alignLeft="@id/buttonPicture"
+        android:layout_alignParentRight="true"
+        android:onClick="onFeather"
+        android:text="@string/feather_string" />
+</RelativeLayout>
+

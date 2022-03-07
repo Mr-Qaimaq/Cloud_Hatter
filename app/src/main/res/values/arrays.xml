@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hats_spinner">
+        <item >Stetson Black Rancher</item>
+        <item >Stetson Gray 20X</item>
+        <item >Custom</item>
+    </string-array>
+
+</resources>
