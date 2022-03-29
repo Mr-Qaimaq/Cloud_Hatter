@@ -1,3 +1,3 @@
 # Cloud_Hatter
 ## Description
-Android app where you can put fancy and cool custom hats to your pictures. Save and load them from server to share with your friends
+Android mobile app that can store, load pictures from the university server, and add custom hats to the picture.
